@@ -310,22 +310,22 @@ a {
 .btn {
   border-width: 2px; }
 
-.background-main {
+.bg-primary {
   background-color: #18BC9C !important; }
 
 .bg-secondary {
   background-color: #7e7e7e !important; }
 
-.text-main {
+.text-primary {
   color: #18BC9C !important; }
 
 .text-secondary {
   color: #7e7e7e !important; }
 
-.btn-main {
+.btn-primary {
   background-color: #18BC9C;
   border-color: #18BC9C; }
-  .btn-main:hover, .btn-main:focus, .btn-main:active {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-color: #128f76;
     border-color: #128f76; }
 
