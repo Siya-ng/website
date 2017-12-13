@@ -11,39 +11,7 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
 
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem; }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: FontAwesome;
-  font-size: 2em; }
-
-hr.star-light {
-  border-color: #fff; }
-
-hr.star-light:after {
-  color: #fff;
-  background-color: #18BC9C; }
-
-hr.star-dark {
-  border-color: #7e7e7e; }
-
-hr.star-dark:after {
-  color: #7e7e7e;
-  background-color: white; }
 
 .section {
   padding: 6rem 0; }
@@ -86,7 +54,7 @@ hr.star-dark:after {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #18BC9C;
+    background-color: #18BC9C !important;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   #mainNav .navbar-brand {
@@ -168,7 +136,7 @@ hr.star-dark:after {
 header.masthead {
         text-align: center;
         color: white;
-        background-image: url("/assets/img/background.jpg");
+        background-image: url("/assets/img/background.jpg") !important;
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
