@@ -45,13 +45,13 @@ hr.star-dark:after {
   color: #7e7e7e;
   background-color: white; }
 
-section {
+.section {
   padding: 6rem 0; }
-  section h2 {
+  .section h2 {
     font-size: 2.25rem;
     line-height: 2rem; }
   @media (min-width: 992px) {
-    section h2 {
+    .section h2 {
       font-size: 3rem;
       line-height: 2.5rem; } }
 
