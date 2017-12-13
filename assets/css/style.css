@@ -310,22 +310,22 @@ a {
 .btn {
   border-width: 2px; }
 
-.bg-primary {
+.background-main {
   background-color: #18BC9C !important; }
 
 .bg-secondary {
   background-color: #7e7e7e !important; }
 
-.text-primary {
+.text-main {
   color: #18BC9C !important; }
 
 .text-secondary {
   color: #7e7e7e !important; }
 
-.btn-primary {
+.btn-main {
   background-color: #18BC9C;
   border-color: #18BC9C; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  .btn-main:hover, .btn-main:focus, .btn-main:active {
     background-color: #128f76;
     border-color: #128f76; }
 
@@ -335,3 +335,7 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
+
+.whole-container {
+  width: 100%;
+}
